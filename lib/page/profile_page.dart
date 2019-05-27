@@ -286,6 +286,13 @@ class SocialInfo extends StatelessWidget {
               ),
             ],
           ),
+          Text(
+            "Powered by Flutter Web ©️2019",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: Colors.grey,
+            ),
+          ),
         ],
       ),
       smallScreen: Column(
@@ -297,12 +304,12 @@ class SocialInfo extends StatelessWidget {
             color: Colors.blue,
           ),
           NavButton(
-            text: "Twitter",
+            text: "Linkedin",
             onPressed: () {},
             color: Colors.blue,
           ),
           NavButton(
-            text: "Facebook",
+            text: "Stackoverflow",
             onPressed: () {},
             color: Colors.blue,
           ),
