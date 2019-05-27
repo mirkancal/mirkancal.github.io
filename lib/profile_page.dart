@@ -179,7 +179,7 @@ class ProfileInfo extends StatelessWidget {
         style: TextStyle(color: Colors.black87),
       ),
       Text(
-        "Mirkan\nÇalışkan",
+        "Mirkan",
         textScaleFactor: 5,
         style: TextStyle(
           color: Color(0xFF3393CD),
