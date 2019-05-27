@@ -22,7 +22,9 @@ class ProfilePage extends StatelessWidget {
                       ),
                       NavButton(
                         text: "work",
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/work');
+                        },
                       ),
                       NavButton(
                         text: "contact",
@@ -80,7 +82,9 @@ class NavHeader extends StatelessWidget {
                 ),
                 NavButton(
                   text: "work",
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, "/work");
+                  },
                 ),
                 NavButton(
                   text: "contact",
