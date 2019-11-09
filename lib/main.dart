@@ -1,6 +1,6 @@
-import 'package:flutter_web/material.dart';
-import 'package:myportfolio/page/profile_page.dart';
-import 'package:myportfolio/page/work_page.dart';
+import 'package:flutter/material.dart';
+import 'package:personal_website/page/profile_page.dart';
+import 'package:personal_website/page/work_page.dart';
 
 main() async {
   runApp(MyApp());

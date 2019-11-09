@@ -1,5 +1,5 @@
-import 'package:flutter_web/material.dart';
-import 'package:myportfolio/responsive_widget.dart';
+import 'package:flutter/material.dart';
+import 'package:personal_website/responsive_widget.dart';
 
 class WorkPage extends StatelessWidget {
   @override
