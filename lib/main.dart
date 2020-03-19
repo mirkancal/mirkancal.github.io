@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:personal_website/page/profile_page.dart';
 import 'package:personal_website/page/work_page.dart';
+import 'package:personal_website/theme.dart';
 
 main() async {
   runApp(MyApp());
@@ -17,13 +18,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/work': (context) => WorkPage(),
       },
-      theme: ThemeData(
-        scaffoldBackgroundColor: Color(0xFFF8F4E3),
-        appBarTheme: AppBarTheme(color: Color(0xFFF8F4E3), elevation: 0.0),
-        primaryColor: Color(0xFFF8F4E3),
-        splashColor: Color(0xFFF8F4E3),
-        fontFamily: "Montserrat",
-      ),
+      theme: lightTheme(context),
       home: ProfilePage(),
     );
   }
